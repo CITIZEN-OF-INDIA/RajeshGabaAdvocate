@@ -32,7 +32,7 @@ export function Navigation() {
         <div className="flex items-center space-x-6">
           <a href="mailto:Gabaassociates1@gmail.com" className="flex items-center hover:text-accent transition-colors">
             <Mail className="w-4 h-4 mr-2" />
-            Gabaassociates1@gmail.com
+            rajeshgabaadvocate@gmail.com
           </a>
           <a href="tel:0124-2310100" className="flex items-center hover:text-accent transition-colors">
             <Phone className="w-4 h-4 mr-2" />
@@ -58,7 +58,7 @@ export function Navigation() {
               <span className="text-accent font-display font-bold text-2xl">G</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-display font-bold text-xl leading-tight text-primary">Gaba Associates</span>
+              <span className="font-display font-bold text-xl leading-tight text-primary">Rajesh Gaba</span>
               <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">Legal & Taxation Firm</span>
             </div>
           </Link>

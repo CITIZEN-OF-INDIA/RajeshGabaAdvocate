@@ -12,10 +12,10 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-accent flex items-center justify-center rounded-sm">
-                <span className="text-primary font-display font-bold text-2xl">G</span>
+                <span className="text-primary font-display font-bold text-2xl">R</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-display font-bold text-xl leading-tight text-white">Gaba Associates</span>
+                <span className="font-display font-bold text-xl leading-tight text-white">Rajesh Gaba</span>
                 <span className="text-[10px] uppercase tracking-wider text-accent font-semibold">Legal & Taxation Firm</span>
               </div>
             </div>
@@ -101,7 +101,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-secondary flex flex-col md:flex-row justify-between items-center text-xs text-primary-foreground/60">
-          <p>&copy; {currentYear} Gaba Associates. All rights reserved.</p>
+          <p>&copy; {currentYear} Rajesh Gaba. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link href="/contact" className="hover:text-accent transition-colors">Privacy Policy</Link>
             <Link href="/contact" className="hover:text-accent transition-colors">Terms of Service</Link>
