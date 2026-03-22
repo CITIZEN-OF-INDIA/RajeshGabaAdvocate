@@ -11,6 +11,9 @@ import { SEO } from "@/components/SEO";
 export default function Contact() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const officeAddress = "Gaba Associates, 429A/16, Civil Lines, Near Rajiv Chowk, Gurugram, Haryana 122001";
+  const googleMapsShareUrl = "https://maps.app.goo.gl/3YqeWVVkzCRVqPrG6?g_st=aw";
+  const googleMapsEmbedUrl = `https://www.google.com/maps?q=${encodeURIComponent(officeAddress)}&z=17&output=embed`;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -64,6 +67,14 @@ export default function Contact() {
                       Near Rajiv Chowk,<br />
                       Gurugram, Haryana – 122001
                     </p>
+                    <a
+                      href={googleMapsShareUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex mt-4 text-sm font-semibold text-primary hover:text-primary/80 transition-colors"
+                    >
+                      View on Google Maps
+                    </a>
                   </div>
                 </div>
 
@@ -173,7 +184,7 @@ export default function Contact() {
           <div className="mt-20">
             <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg border border-border">
               <iframe 
-                src="https://maps.app.goo.gl/3YqeWVVkzCRVqPrG6?g_st=aw" 
+                src={googleMapsEmbedUrl}
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
