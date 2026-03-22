@@ -1,0 +1,22 @@
+packages:
+  "framer-motion": "For page transitions, scroll-reveals, animated counters, and testimonials slider."
+  "react-helmet-async": "For SEO optimization, unique title and meta description tags per page."
+
+images:
+  - path: "artifacts/gaba-associates/public/images/hero-bg.png"
+    description: "Luxurious modern law firm office with dark mahogany wood, navy blue accents, and subtle warm gold lighting, professional, depth of field, corporate legal aesthetic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/gaba-associates/public/images/about-office.png"
+    description: "Professional law books and a judge's gavel on a dark mahogany desk, warm lighting, elegant legal setting"
+    aspect_ratio: "16:9"
+  - path: "artifacts/gaba-associates/public/images/rajesh-gaba.png"
+    description: "Professional portrait of a confident Indian male senior lawyer in his late 50s, wearing a dark navy suit and tie, authoritative but approachable smile, subtle office background"
+    aspect_ratio: "3:4"
+  - path: "artifacts/gaba-associates/public/images/mihir-gaba.png"
+    description: "Professional portrait of a sharp Indian male lawyer in his late 20s, wearing a dark navy suit, confident expression, modern corporate office background"
+    aspect_ratio: "3:4"
+
+notes:
+  - Frontend-only application. No backend API integration is required.
+  - Using wouter for routing.
+  - Implement mobile-first approach with custom sticky CTAs and hamburger menus.

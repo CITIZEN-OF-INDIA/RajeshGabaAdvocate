@@ -1,0 +1,202 @@
+Build a professional, modern, mobile-first, SEO-optimized website using React + TypeScript (Vite) for a legal and taxation firm.
+
+⚠️ CORE RULES (STRICT)
+Frontend ONLY (no backend, no database)
+Use React + TypeScript + Vite
+Use Tailwind CSS
+Mobile-first design (design for mobile first, then scale up)
+Fully responsive across:
+Mobile
+Tablet
+Desktop
+Clean, scalable component-based architecture
+Lighthouse score target: 90+ (Performance, SEO, Accessibility)
+Fast loading (optimize images, lazy loading)
+🧠 WEBSITE CONTEXT
+
+Advocate Rajesh Gaba – Senior Counsel (Taxation & Mercantile Laws)
+📍 Gurugram, India
+🧠 27+ Years Experience
+👥 300+ Clients
+
+Expertise:
+Income Tax
+GST (Goods & Services Tax)
+EPF / ESI
+Business Advisory & Compliance
+📱 MOBILE-FIRST DESIGN REQUIREMENTS (VERY IMPORTANT)
+Start design from 320px width (small phones)
+Use Tailwind responsive breakpoints: sm, md, lg, xl
+Navigation:
+Mobile: hamburger menu + slide drawer
+Desktop: full navbar
+Touch-friendly UI:
+Large buttons (min 44px height)
+Proper spacing
+Sticky bottom CTA (mobile only):
+Call button
+WhatsApp button
+Optimize:
+Font sizes (readable on small screens)
+Spacing & padding
+Avoid:
+Horizontal scrolling
+Tiny clickable elements
+🧩 PAGES TO BUILD
+🏠 HOME PAGE
+
+Sections:
+
+Hero Section
+Headline: “Trusted Tax & Legal Experts with 27+ Years of Excellence”
+Subtext: Advisory, Compliance & Litigation Services
+CTA: “Get Consultation”
+Background: subtle gradient or professional image
+About Summary
+Short intro about firm
+Services (Card Grid)
+Income Tax
+GST
+Accounting & Payroll
+Company Setup
+Stats Section
+27+ Years Experience
+300+ Clients
+Why Choose Us
+Trust
+Experience
+Professionalism
+Testimonials (dummy but realistic)
+CTA Banner
+“Contact Us Today”
+📄 ABOUT US
+Firm overview
+CPI Principle:
+Customer Satisfaction
+Professionalism
+Integrity
+Office description (modern Gurugram office)
+Client types:
+Individuals
+Firms
+Companies
+👨‍⚖️ OUR TEAM
+Advocate Rajesh Gaba (Senior Counsel)
+Advocate Mihir Gaba
+Team description
+💼 SERVICES PAGE (DETAILED)
+Income Tax
+Tax Planning
+ITR Filing
+TDS Returns
+Representation
+GST
+Registration
+Returns (GSTR-1, GSTR-3B)
+ITC Management
+Litigation
+Accounting & Payroll
+Bookkeeping
+MIS Reporting
+Payroll
+PF/ESI Compliance
+Company Incorporation
+Pvt Ltd / LLP
+DIN / DSC
+MOA / AOA
+Startup Advisory
+📥 DOWNLOADS / RESOURCES
+GST Forms
+Income Tax Forms
+Use placeholder links (govt portals)
+📞 CONTACT PAGE
+
+Include:
+
+Address:
+429A/16, Civil Lines, Near Rajiv Chowk
+Gurugram, Haryana – 122001
+Phone: 0124-2310100
+Mobile: 9811004759
+Emails:
+Gabaassociates1@gmail.com
+rajeshgabaadvocate@gmail.com
+
+Features:
+
+Contact form (frontend only)
+Google Maps embed
+Click-to-call button
+Click-to-email button
+🎨 DESIGN SYSTEM
+Theme: Professional Legal
+Colors:
+Dark Blue (primary)
+White (background)
+Gold accents (premium feel)
+UI Elements:
+Sticky navbar
+Smooth scrolling
+Card layouts
+Section spacing
+Shadows + rounded corners
+Libraries:
+Framer Motion (animations)
+Lucide React (icons)
+⚡ SEO REQUIREMENTS (CRITICAL FOR 2026)
+On-Page SEO:
+Proper heading hierarchy (H1 → H2 → H3)
+Keyword-rich content:
+“GST Consultant in Gurugram”
+“Income Tax Lawyer India”
+Optimized meta tags:
+title
+description
+Technical SEO:
+Semantic HTML:
+header, main, section, footer
+Open Graph tags
+Canonical URLs
+Structured Data (IMPORTANT):
+Add JSON-LD schema:
+LegalService
+LocalBusiness
+Performance:
+Lazy load images
+Optimize assets
+Use modern formats (WebP)
+📁 PROJECT STRUCTURE
+/src
+  /components
+  /pages
+  /layouts
+  /data
+  /assets
+  /hooks
+🚀 EXTRA FEATURES (HIGH VALUE)
+Scroll-to-top button
+Sticky CTA (Call + WhatsApp)
+FAQ section (SEO boost)
+Testimonials slider
+Animated counters (stats)
+Loading skeletons
+⚙️ TECH STACK
+React + TypeScript + Vite
+Tailwind CSS
+React Router
+Framer Motion
+Lucide Icons
+📦 FINAL OUTPUT EXPECTED
+Fully working React project
+Clean code
+Mobile-first responsive design
+SEO-ready structure
+Ready to deploy (Netlify / Vercel)
+🧠 FINAL INSTRUCTION
+
+Focus on:
+
+Mobile-first UX (top priority)
+SEO ranking (Google 2026 standards)
+Fast performance
+Trust-building design (for legal clients)

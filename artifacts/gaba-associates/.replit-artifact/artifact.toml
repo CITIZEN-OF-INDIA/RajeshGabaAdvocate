@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Gaba Associates - Legal & Taxation Firm"
+version = "1.0.0"
+id = "artifacts/gaba-associates"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25744
+
+[services.development]
+run = "pnpm --filter @workspace/gaba-associates run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/gaba-associates", "run", "build" ]
+publicDir = "artifacts/gaba-associates/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25744"
+BASE_PATH = "/"
