@@ -11,6 +11,9 @@ import { SEO } from "@/components/SEO";
 export default function Contact() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const googleMapsShareUrl = "https://maps.app.goo.gl/3YqeWVVkzCRVqPrG6?g_st=aw";
+  const googleMapsEmbedUrl =
+    "https://www.google.com/maps/embed?pb=!4v1774196338230!6m8!1m7!1s_wchq_-zAkoxEXHiGCLR-Q!2m2!1d28.45164896980769!2d77.01500907756349!3f283.31619267962844!4f0!5f0.7820865974627469";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -64,6 +67,14 @@ export default function Contact() {
                       Near Rajiv Chowk,<br />
                       Gurugram, Haryana – 122001
                     </p>
+                    <a
+                      href={googleMapsShareUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex mt-4 text-sm font-semibold text-primary hover:text-primary/80 transition-colors"
+                    >
+                      Open in Google Maps
+                    </a>
                   </div>
                 </div>
 
@@ -172,7 +183,16 @@ export default function Contact() {
           {/* Google Maps Embed */}
           <div className="mt-20">
             <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-lg border border-border">
-              <iframe src="https://www.google.com/maps/embed?pb=!4v1774196338230!6m8!1m7!1s_wchq_-zAkoxEXHiGCLR-Q!2m2!1d28.45164896980769!2d77.01500907756349!3f283.31619267962844!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe 
+                src={googleMapsEmbedUrl}
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={true} 
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Gaba Associates Office Location"
+              />
             </div>
           </div>
 
